@@ -16,5 +16,5 @@ Step 4- run "php artisan key:generate" for generate key in .env file<br />
 Step 5- create new database with (incident) name<br />
 Step 6- update .env file according to your database username & password<br />
 Step 7- Run  php artisan migrate:fresh --seed<br />
-Step 8- For Run test case "vendor/bin/phpunit"<br />
+Step 8- For Run test case "vendor/bin/phpunit" OR in windows "php vendor/phpunit/phpunit/phpunit"<br />
 # incident
