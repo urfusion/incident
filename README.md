@@ -11,8 +11,8 @@
 
 Step 1- clone project repository<br />
 Step 2- run "cp .env.example .env" for generate .env file<br />
-Step 3- run "php artisan key:generate" for generate key in .env file<br />
-Step 4- run "composer update" command in project folder<br />
+Step 3- run "composer update" command in project folder<br />
+Step 4- run "php artisan key:generate" for generate key in .env file<br />
 Step 5- create new database with (incident) name<br />
 Step 6- update .env file according to your database username & password<br />
 Step 7- Run  php artisan migrate:fresh --seed<br />
