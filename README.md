@@ -17,4 +17,10 @@ Step 5- create new database with (incident) name<br />
 Step 6- update .env file according to your database username & password<br />
 Step 7- Run  php artisan migrate:fresh --seed<br />
 Step 8- For Run test case "vendor/bin/phpunit" OR in windows "php vendor/phpunit/phpunit/phpunit"<br />
-# incident
+
+# API
+
+POST- http://YOUR_LOCAL_URL/api/saveData<br />
+GET- http://YOUR_LOCAL_URL/api/getData<br />
+PARAM (GET API)- page=page_number<br />
+http://YOUR_LOCAL_URL/api/getData?page=2<br />
